@@ -25,8 +25,6 @@ Analizamos la columna `**monthlycharges**`, que representa los ingresos mensuale
 
 Calculamos la suma total de los ingresos mensuales agrupados por el tipo de servicio contratado por los clientes, para saber nuestra facturación anual (2023) de cada servicio. Esto nos brinda una visión detallada de cómo se distribuyen los ingresos en función de las diferentes opciones de servicios ofrecidos a los clientes. El resultado es el siguiente:
 
-
-
 |**Fibra óptica**|**ADSL**|**Otros**|
 | - | - | - |
 |3,891,497.12 €|2,183,183.80 €|534,687.35 €|
