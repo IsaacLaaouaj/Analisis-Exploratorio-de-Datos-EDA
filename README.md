@@ -35,11 +35,11 @@ Su contribución al total de ingresos ha sido notablemente superior en comparaci
 
 Realizamos la gráfica de barras de los ingresos del año 2023 por tipo de servicio:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.002.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.002.jpeg)
 
 Lo que nos indica que nuestra distribución de los ingresos en función del tipo de servicio en porcentaje respecto al total de la facturación es el siguiente:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.003.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.003.jpeg)
 
 ## 3.2. Clientes más propensos a irse de la compañía
 
@@ -53,13 +53,13 @@ Edad
 
 Podemos observar la distribución de la edad, diferenciando entre los clientes que han abandonado nuestro servicio y aquellos que siguen siendo clientes activos. Se aprecia una relativa similitud en la distribución por edades entre ambos grupos:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.004.jpeg)A edades más avanzadas menos abandono pronunciamos, concluyendo que los abandonos ocurren más en grupos de edades adultas:
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.004.jpeg)A edades más avanzadas menos abandono pronunciamos, concluyendo que los abandonos ocurren más en grupos de edades adultas:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.005.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.005.jpeg)
 
 Las 5 edades con más abandono en nuestra empresa constituyen el rango de entre 20 hasta 38 años.
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.006.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.006.jpeg)
 
 Género
 
@@ -84,7 +84,7 @@ Resulta notable que los clientes que no han especificado su género presentan un
 
 El siguiente diagrama de barras muestra una representación general de la cantidad de abandonos por género:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.007.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.007.jpeg)
 
 Número de hijos
 
@@ -100,17 +100,15 @@ Los clientes que han abandonado son más propensos a no tener ningún hijo a car
 
 Podemos visualizarlo mejor mediante el siguiente diagrama de barras, aunque es totalmente coherente que el quien tiene mayor tasa de abandono son los que no tienen hijos ya que son los clientes que más hay:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.008.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.008.jpeg)
 
 Estado civil
 
 Visualizamos si el estado civil influye en los abandonos de parte de los clientes:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.009.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.009.jpeg)
 
 Observando el diagrama si podemos ver una cierta relación en que los solteros o divorciados han abandonado más en comparación con los clientes que se encuentran casados:
-
-
 
 |**Estado civil**|**% Abandono**|
 | - | - |
@@ -127,7 +125,7 @@ Se trata de un cliente de entre 20 y 38 años, indiferentemente del género (aun
 
 El análisis geográfico, específicamente la provincia donde residen los clientes, puede ser un factor relevante para identificar patrones de abandono en áreas geográficas específicas. Podríamos observar si existen provincias donde el abandono es más frecuente en comparación con otras.
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.010.png)Como más pronunciado sea el azul, más clientes han abandonado el año 2023, y como menos azul es menor ha sido el número de abandonos.
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.010.png)Como más pronunciado sea el azul, más clientes han abandonado el año 2023, y como menos azul es menor ha sido el número de abandonos.
 
 Las provincias con más abandono de clientes han sido:
 
@@ -157,7 +155,7 @@ El análisis de los datos relacionados con el tipo de servicio más propenso al 
 
 Visualizamos las posibles correlaciones que hay entre los datos que disponemos:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.011.jpeg)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.011.jpeg)
 
 Observamos que en la columna "churn":
 
@@ -172,13 +170,13 @@ Por otro lado, la elección de facturación electrónica y los cargos mensuales 
 
 Se observa que los clientes que abandonan el servicio muestran una menor cantidad de meses de permanencia en comparación con aquellos que continúan siendo clientes activos:
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.012.png)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.012.png)
 
 #### Análisis de penalización por permanencia:
 
 Observamos que los clientes que decidieron abandonar nuestros servicios presentan una penalización monetaria menor en comparación con aquellos que optaron por continuar con nosotros.
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.013.png)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.013.png)
 
 #### Evaluación de cargos mensuales:
 
@@ -186,7 +184,7 @@ Observamos que, en promedio, los clientes que abandonaron en 2023 tuvieron un co
 
 Esta diferencia en el importe medio de los cargos mensuales podría ser un factor relevante para comprender el abandono de clientes durante el año 2023.
 
-![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.014.png)
+![](Imagenes/Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.014.png)
 
 ¿Cómo podríamos frenar la marcha de futuros clientes?
 
@@ -234,6 +232,3 @@ Si la campaña es efectiva (sin tener en cuenta ningún margen de error) la empr
 **Acciones de Retención de Clientes**: Basándose en el análisis, se sugieren estrategias específicas para frenar la pérdida de futuros clientes. Esto incluye proporcionar incentivos para la permanencia, ofreciendo descuentos o beneficios a largo plazo a aquellos que decidan quedarse más tiempo con el servicio.
 
 **Impacto de la Campaña de Retención**: Se ha calculado el impacto en la facturación debido a la campaña de descuento del 10% sobre la mensualidad de Fibra Óptica durante el mes de agosto, resultando en 84,146.78 €. Se plantea que, si la campaña es efectiva, la empresa evitará una pérdida de 35,311.43 €, lo que garantizaría la fidelidad del cliente para los próximos meses, a pesar de no igualar las pérdidas ocasionadas por la promoción inicial.
-15
-
-[ref1]: Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.001.png
