@@ -2,7 +2,7 @@
 El objetivo es realizar un análisis exploratorio de los datos de una empresa de telecomunicaciones, donde se puedan contestar una serie de preguntas de negocio que  permitan refinar la búsqueda de “churners” (clientes que abandonan el servicio).
 
 
-1\.Familiarización de los datos y objetivo
+# 1\.Familiarización de los datos y objetivo
 
 El objetivo es realizar una análisis exploratorio que permita definir la búsqueda de “churners” (clientes que cambian de compañía).
 
@@ -11,14 +11,15 @@ Tenemos tres conjuntos de datos de datos. Cada uno contiene información relevan
 - Clientes: Contiene información sociodemográfica de los clientes a fecha 2023-10-31.
 - Billing: contiene la facturación emitida a los clientes en todo el año 2023.
 - Tenure: contiene la información relativa a los compromisos de permanencia durante el año 2023.
-2. Limpieza de los datos
+
+# 2. Limpieza de los datos
 
 La fase de limpieza de datos se ha centrado en preservar la integridad de los datos, manteniendo sus patrones y tendencias originales. De esta forma nos aseguramos la coherencia y consistencia de los datos, lo cual es fundamental para llevar a cabo un análisis exploratorio preciso y efectivo.
 
 Durante el proceso de limpieza, se ha trabajado para eliminar cualquier tipo de inconsistencia, error o valor atípico que pudiera distorsionar los resultados del análisis.
 
-3. Perspectivas de negocios
-1. Segmento principal de la empresa
+# 3. Perspectivas de negocios
+## 3.1. Segmento principal de la empresa
 
 Analizamos la columna `**monthlycharges**`, que representa los ingresos mensuales generados por los clientes.
 
@@ -42,11 +43,11 @@ Lo que nos indica que nuestra distribución de los ingresos en función del tipo
 
 ![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.003.jpeg)
 
-2. Clientes más propensos a irse de la compañía
+## 3.2. Clientes más propensos a irse de la compañía
 
 Para comprender y crear un perfil de los clientes más propensos a abandonar el servicio, utilizaremos una combinación de datos geográficos, demográficos y de negocio. Estos datos nos permitirán identificar y caracterizar a los clientes que tienden a abandonar el servicio de la compañía.
 
-1. Demográficos:
+### 3.2.1. Demográficos:
 
 Los aspectos demográficos, como la edad, el sexo, el estado civil y el número de hijos, desempeñan un papel crucial en la comprensión de los clientes propensos a abandonar el servicio. Podemos examinar si ciertos grupos demográficos, como clientes más jóvenes o mayores, hombres o mujeres, solteros o casados, o aquellos con cierta cantidad de hijos, tienen una mayor tendencia al abandono.
 
@@ -66,16 +67,12 @@ Género
 
 Analizamos las tres categorias de los datos referente al genero (Hombre, Mujer y otros) mediante una tabla de contingencias tanto numérico como percentual:
 
-
-
 ||**Clientes que han abandonado**|**Clientes que no han abandonado**|**Todos**|
 | :- | :- | :- | - |
 |**Femenino**|4076|1476|5552|
 |**Masculino**|4211|1470|2681|
 |**Otros**|20|11|31|
 |**Suma total**|8307|2957|11264|
-
-
 
 ||**Clientes que han abandonado**|**Clientes que no han abandonado**|
 | :- | :- | :- |
@@ -124,19 +121,17 @@ Observando el diagrama si podemos ver una cierta relación en que los solteros o
 
 Por lo tanto, los clientes que no se encuentran casados tienden más a abandonar nuestros servicios.
 
-Conclusión perfil demográfico del cliente que abandona
+#### Conclusión perfil demográfico del cliente que abandona
 
 Se trata de un cliente de entre 20 y 38 años, indiferentemente del género (aunque en especial énfasis a los otros géneros que nos sean femenino ni masculino), sin hijos y con un estado civil diferente a casado (soltero, viudo o viuda, divorciado, etc.)
 
-2. Geográficos:
+### 3.2.2. Geográficos:
 
 El análisis geográfico, específicamente la provincia donde residen los clientes, puede ser un factor relevante para identificar patrones de abandono en áreas geográficas específicas. Podríamos observar si existen provincias donde el abandono es más frecuente en comparación con otras.
 
 ![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.010.png)Como más pronunciado sea el azul, más clientes han abandonado el año 2023, y como menos azul es menor ha sido el número de abandonos.
 
 Las provincias con más abandono de clientes han sido:
-
-
 
 |**Província**|**Abandonos**|
 | - | - |
@@ -150,11 +145,9 @@ Conclusión cliente que abandona según su geografía:
 
 Cliente posicionado geográficamente en Ceuta, La Rioja, León, Albacete o Guadalajara
 
-3. Datos<a name="_page9_x72.00_y354.48"></a> de negocio:
+### 3.2.3 Datos<a name="_page9_x72.00_y354.48"></a> de negocio:
 
 El análisis de los datos relacionados con el tipo de servicio más propenso al abandono ofrece información valiosa. En este caso, sabemos que el servicio de \*\*Fiber optic\*\* es más susceptible a abandonos. Por lo tanto, considerar este servicio como un factor clave en el análisis nos permite enfocar estrategias de retención específicas para este segmento.
-
-
 
 |**Servicio**|**Abandonos**|
 | - | - |
@@ -162,9 +155,9 @@ El análisis de los datos relacionados con el tipo de servicio más propenso al 
 |ADLS|257|
 |Otros|69|
 
-3. ¿Por qué se van los clientes? ¿Cómo podríamos frenar su marcha?
+## 3.3 ¿Por qué se van los clientes? ¿Cómo podríamos frenar su marcha?
 
-   Visualizamos las posibles correlaciones que hay entre los datos que disponemos:
+Visualizamos las posibles correlaciones que hay entre los datos que disponemos:
 
 ![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.011.jpeg)
 
@@ -177,19 +170,19 @@ Estos hallazgos sugieren que la duración de la permanencia en el servicio y las
 
 Por otro lado, la elección de facturación electrónica y los cargos mensuales muestran una relación positiva con los abandonos. A fin de comprender esta relación en mayor profundidad, examinaremos estos aspectos con mayor detenimiento.
 
-Análisis de la duración de permanencia:
+#### Análisis de la duración de permanencia:
 
 Se observa que los clientes que abandonan el servicio muestran una menor cantidad de meses de permanencia en comparación con aquellos que continúan siendo clientes activos:
 
 ![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.012.png)
 
-Análisis de penalización por permanencia:
+#### Análisis de penalización por permanencia:
 
 Observamos que los clientes que decidieron abandonar nuestros servicios presentan una penalización monetaria menor en comparación con aquellos que optaron por continuar con nosotros.
 
 ![](Aspose.Words.2d97f8d2-31be-4ef9-9950-7c6db5315cd5.013.png)
 
-Evaluación de cargos mensuales:
+#### Evaluación de cargos mensuales:
 
 Observamos que, en promedio, los clientes que abandonaron en 2023 tuvieron un costo mensual más alto en sus facturas en comparación con los clientes que actualmente siguen siendo vigentes.
 
@@ -232,7 +225,7 @@ La duración prevista para esta campaña será de un mes, iniciando el 01/08 y c
 
 Si la campaña es efectiva (sin tener en cuenta ningún margen de error) la empresa evitará una pérdida de **35,311.43 €**, que no se asemeja a las pérdidas ocasionadas por la promoción pero garantiza una fidelidad del cliente para los próximos meses.
 
-4. Conclusiones
+# 4. Conclusiones
 
 **Facturación Anual por Servic**io Se ha identificado la distribución de ingresos anuales (en euros) por cada tipo de servicio ofrecido a los clientes. Los ingresos más altos provienen del servicio de Fibra Óptica (3,891,497.12 €), seguido por ADSL (2,183,183.80 €) y Otros (534,687.35 €). Esto proporciona una visión detallada de cómo se distribuyen los ingresos entre las diferentes opciones de servicios.
 
