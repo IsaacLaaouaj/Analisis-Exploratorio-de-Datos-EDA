@@ -2,7 +2,7 @@
 El objetivo es realizar un análisis exploratorio de los datos de una empresa de telecomunicaciones (con datos ficticios), donde se puedan contestar una serie de preguntas de negocio que  permitan refinar la búsqueda de “churners” (clientes que abandonan el servicio).
 
 
-# 1\.Familiarización de los datos y objetivo
+# 1. Familiarización de los datos y objetivo
 
 El objetivo es realizar una análisis exploratorio que permita definir la búsqueda de “churners” (clientes que cambian de compañía).
 
